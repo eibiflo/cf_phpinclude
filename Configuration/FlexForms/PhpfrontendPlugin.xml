@@ -1,0 +1,33 @@
+<T3DataStructure>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>Function</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <settings.script_url>
+                        <TCEforms>
+                            <label>Script URL</label>
+                            <config>
+                                <type>input</type>
+                                <size>30</size>
+                            </config>
+                        </TCEforms>
+                    </settings.script_url>
+                    <settings.script_params>
+                        <TCEforms>
+                            <label>Script Params</label>
+                            <config>
+                                <type>text</type>
+                                <size>30</size>
+                                <rows>5</rows>
+                            </config>
+                        </TCEforms>
+                    </settings.script_params>
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>

@@ -1,0 +1,6 @@
+##############
+### PAGETS ###
+##############
+
+# cat=General; type=string; label=Default PHP Include Folder in Public Directory
+includeDirectory = /cf_phpinclude

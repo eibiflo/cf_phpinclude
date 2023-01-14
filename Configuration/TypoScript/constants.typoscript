@@ -1,0 +1,14 @@
+plugin.tx_cfphpinclude_phpfrontend {
+    view {
+        # cat=plugin.tx_cfphpinclude_phpfrontend/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:cf_phpinclude/Resources/Private/Templates/
+        # cat=plugin.tx_cfphpinclude_phpfrontend/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:cf_phpinclude/Resources/Private/Partials/
+        # cat=plugin.tx_cfphpinclude_phpfrontend/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:cf_phpinclude/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_cfphpinclude_phpfrontend//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}

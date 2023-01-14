@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:cf_phpinclude/Resources/Private/Language/locallang.xlf" date="2023-01-14T08:05:53Z" product-name="cf_phpinclude">
+		<header/>
+		<body>
+			<trans-unit id="tx_cfphpinclude_domain_model_phpfrontend" resname="tx_cfphpinclude_domain_model_phpfrontend">
+				<source>Php Frontend</source>
+			</trans-unit>
+			<trans-unit id="tx_cfphpinclude_domain_model_phpfrontend.plugin.phpfrontend" resname="tx_cfphpinclude_domain_model_phpfrontend.plugin.phpfrontend">
+				<source>Php Frontend Plugin</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

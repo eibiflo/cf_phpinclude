@@ -1,0 +1,22 @@
+plugin.tx_cfphpinclude_phpfrontend {
+    view {
+        templateRootPaths.0 = EXT:cf_phpinclude/Resources/Private/Templates/
+        templateRootPaths.1 = {$plugin.tx_cfphpinclude_phpfrontend.view.templateRootPath}
+        partialRootPaths.0 = EXT:cf_phpinclude/Resources/Private/Partials/
+        partialRootPaths.1 = {$plugin.tx_cfphpinclude_phpfrontend.view.partialRootPath}
+        layoutRootPaths.0 = EXT:cf_phpinclude/Resources/Private/Layouts/
+        layoutRootPaths.1 = {$plugin.tx_cfphpinclude_phpfrontend.view.layoutRootPath}
+    }
+    persistence {
+        storagePid = {$plugin.tx_cfphpinclude_phpfrontend.persistence.storagePid}
+        #recursive = 1
+    }
+    features {
+        #skipDefaultArguments = 1
+        # if set to 1, the enable fields are ignored in BE context
+        ignoreAllEnableFieldsInBe = 0
+    }
+    mvc {
+        #callDefaultActionIfActionCantBeResolved = 1
+    }
+}
