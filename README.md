@@ -59,7 +59,7 @@ The "Custom PHP Include" extension for Typo3 is a must-have for developers to in
 
 ### Installation
 
-Install the Cookie manager with composer require
+Install the PHP Includer with composer require
 
 * composer
   ```sh
