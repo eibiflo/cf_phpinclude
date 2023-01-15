@@ -5,8 +5,16 @@
     "authors": [
         {
             "name": "Florian Eibisbegrer",
-            "role": "Developer"
+            "role": "Developer",
+            "email": "cookiemanager@coding-freaks.com",
+            "homepage": "https://coding-freaks.com"
         }
+    ],
+    "keywords": [
+        "typo3",
+        "custom",
+        "php",
+        "include"
     ],
     "license": "GPL-2.0-or-later",
     "require": {

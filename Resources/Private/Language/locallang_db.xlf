@@ -10,7 +10,7 @@
 				<source>PhpFrontend</source>
 			</trans-unit>
 			<trans-unit id="tx_cf_phpinclude_phpfrontend.description" resname="tx_cf_phpinclude_phpfrontend.description">
-				<source>Description</source>
+				<source>Include custom PHP Files</source>
 			</trans-unit>
 		</body>
 	</file>
