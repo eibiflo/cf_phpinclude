@@ -56,7 +56,7 @@
             "sourceLanguage": "en",
             "state": "stable",
             "targetVersion": "11.5.0-11.5.99",
-            "version": "1.0.2"
+            "version": "1.0.3"
         },
         "extensionKey": "cf_phpinclude",
         "name": "cf_phpinclude",
