@@ -20,8 +20,7 @@ installed. You do not have to activate it manually.
 Set Include Folder
 --------------------------
 
-Open your TYPO3 backend with :ref:`system maintainer <t3start:system-maintainer>`
-permissions.
+Open your TYPO3 backend with :ref:`system maintainer <t3start:system-maintainer>` permissions.
 
 In the module menu to the left navigate to :guilabel:`Admin Tools > Settings`,
 then click on :guilabel:`Configure extensions` and create all.
