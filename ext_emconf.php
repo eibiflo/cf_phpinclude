@@ -11,7 +11,7 @@ $EM_CONF["cf_phpinclude"] = [
     'version' => '1.0.2',
     'constraints' => [
         'depends' => [
-            'typo3' => '11.5.0-11.5.99',
+            'typo3' => '11.5.0-12.1.99',
         ],
         'conflicts' => [],
         'suggests' => [],
