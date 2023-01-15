@@ -10,7 +10,7 @@ defined('TYPO3') || die();
         ],
         // non-cacheable actions
         [
-            \CodingFreaks\CfPhpinclude\Controller\PhpFrontendController::class => ''
+            \CodingFreaks\CfPhpinclude\Controller\PhpFrontendController::class => 'list'
         ]
     );
 

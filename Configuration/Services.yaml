@@ -1,0 +1,11 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: true
+
+  CodingFreaks\CfPhpinclude\:
+    resource: '../Classes/*'
+
+  CodingFreaks\CfPhpinclude\Controller\PhpFrontendController:
+    public: true

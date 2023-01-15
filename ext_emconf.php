@@ -1,6 +1,6 @@
 <?php
 
-$EM_CONF[$_EXTKEY] = [
+$EM_CONF["cf_phpinclude"] = [
     'title' => 'cf_phpinclude',
     'description' => 'Includes a Custom PHP Script in Typo3 Context',
     'category' => 'plugin',

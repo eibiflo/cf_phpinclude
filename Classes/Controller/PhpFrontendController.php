@@ -23,22 +23,6 @@ use TYPO3\CMS\Extbase\Utility\DebuggerUtility;
  */
 class PhpFrontendController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
 {
-
-    /**
-     * phpFrontendRepository
-     *
-     * @var \CodingFreaks\CfPhpinclude\Domain\Repository\PhpFrontendRepository
-     */
-    protected $phpFrontendRepository = null;
-
-    /**
-     * @param \CodingFreaks\CfPhpinclude\Domain\Repository\PhpFrontendRepository $phpFrontendRepository
-     */
-    public function injectPhpFrontendRepository(\CodingFreaks\CfPhpinclude\Domain\Repository\PhpFrontendRepository $phpFrontendRepository)
-    {
-        $this->phpFrontendRepository = $phpFrontendRepository;
-    }
-
     /**
      * action list
      *
