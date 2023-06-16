@@ -43,6 +43,8 @@
     <a href="https://github.com/eibiflo/cf_phpinclude/issues">Report Bug</a>
     ·
     <a href="https://github.com/eibiflo/cf_phpinclude/issues">Request Feature</a>
+    .
+    <a href="https://extensions.typo3.org/extension/cf_phpinclude">TER</a>
   </p>
 </div>
 
@@ -52,7 +54,7 @@
 
 ## About The Project
 
-The "Custom PHP Include" extension for Typo3 is a must-have for developers to include custom PHP files with variable support, making it easy to add custom functionality to the website and manage reusable code snippets.
+The "Custom PHP Include" extension for Typo3 is a Typo3 Extension for developers to include custom PHP files with variable support, making it easy to add custom functionality to the website and manage reusable code snippets.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
