@@ -20,7 +20,7 @@ defined('TYPO3') || die();
             wizards.newContentElement.wizardItems.plugins {
                 elements {
                     phpfrontend {
-                        iconIdentifier = cf_phpinclude-plugin-phpfrontend
+                        iconIdentifier = cf-phpinclude-plugin-phpfrontend
                         title = LLL:EXT:cf_phpinclude/Resources/Private/Language/locallang_db.xlf:tx_cf_phpinclude_phpfrontend.name
                         description = LLL:EXT:cf_phpinclude/Resources/Private/Language/locallang_db.xlf:tx_cf_phpinclude_phpfrontend.description
                         tt_content_defValues {
