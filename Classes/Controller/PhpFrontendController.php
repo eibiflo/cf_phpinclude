@@ -49,13 +49,13 @@ class PhpFrontendController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCont
         }
         $GLOBALS['cf_include']['php_file'] = $include_file;
         $absPath = Environment::getPublicPath() . $includeDirectory . "/" . $include_file;
-        if (file_exists($absPath)) {
+        if (file_exists($absPath) && !empty($include_file)) {
             ob_start();
             require $absPath;
             $content_from_include = ob_get_contents();
             ob_end_clean();
         } else {
-            $content_from_include = "<b>cf_phpinclude ERROR: File ({$absPath}) not found</b>";
+            $content_from_include = "<b>cf_phpinclude ERROR: File ({$absPath}) not found or include path Empty</b>";
         }
         return $this->htmlResponse($content_from_include);
     }
