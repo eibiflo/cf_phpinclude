@@ -2,29 +2,23 @@
     <sheets>
         <sDEF>
             <ROOT>
-                <TCEforms>
-                    <sheetTitle>Function</sheetTitle>
-                </TCEforms>
+                <sheetTitle>Function</sheetTitle>
                 <type>array</type>
                 <el>
                     <settings.script_url>
-                        <TCEforms>
-                            <label>Script URL</label>
-                            <config>
-                                <type>input</type>
-                                <size>30</size>
-                            </config>
-                        </TCEforms>
+                        <label>Script URL</label>
+                        <config>
+                            <type>input</type>
+                            <size>30</size>
+                        </config>
                     </settings.script_url>
                     <settings.script_params>
-                        <TCEforms>
-                            <label>Script Params</label>
-                            <config>
-                                <type>text</type>
-                                <size>30</size>
-                                <rows>5</rows>
-                            </config>
-                        </TCEforms>
+                        <label>Script Params</label>
+                        <config>
+                            <type>text</type>
+                            <size>30</size>
+                            <rows>5</rows>
+                        </config>
                     </settings.script_params>
                 </el>
             </ROOT>

@@ -15,7 +15,7 @@ defined('TYPO3') || die();
     );
 
     // wizards
-    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig(
+    /*\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig(
         'mod {
             wizards.newContentElement.wizardItems.plugins {
                 elements {
@@ -33,5 +33,6 @@ defined('TYPO3') || die();
             }
        }'
     );
+    */
 })();
 ## EXTENSION BUILDER DEFAULTS END TOKEN - Everything BEFORE this line is overwritten with the defaults of the extension builder
