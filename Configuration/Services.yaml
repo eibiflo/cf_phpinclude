@@ -9,3 +9,10 @@ services:
 
   CodingFreaks\CfPhpinclude\Controller\PhpFrontendController:
     public: true
+
+  CodingFreaks\CfPhpinclude\Updates\PluginListToCTypeUpdateWizard:
+    class: CodingFreaks\CfPhpinclude\Updates\PluginListToCTypeUpdateWizard
+    autowire: true
+    public: true
+    tags:
+      - name: typo3.install.updatewizard
