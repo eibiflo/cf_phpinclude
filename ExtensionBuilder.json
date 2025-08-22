@@ -55,8 +55,8 @@
             "generateEmptyGitRepository": false,
             "sourceLanguage": "en",
             "state": "stable",
-            "targetVersion": "11.5.0-12.1.99",
-            "version": "1.1.0"
+            "targetVersion": "12.5.0-14.5.99",
+            "version": "1.2.0"
         },
         "extensionKey": "cf_phpinclude",
         "name": "cf_phpinclude",
