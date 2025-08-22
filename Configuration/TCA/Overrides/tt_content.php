@@ -1,8 +1,6 @@
 <?php
 defined('TYPO3') || die();
 
-
-
 $pluginNames = [
     'Phpfrontend',
 ];
@@ -15,13 +13,25 @@ foreach ($pluginNames as $pluginName) {
         $_LLL_db . 'tx_cfphpinclude_domain_model_phpfrontend.plugin.' . strtolower(preg_replace('/[A-Z]/', '_$0', lcfirst($pluginName)))
     );
 
-    $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_excludelist'][$pluginSignature] = 'select_key';
     $flexFormPath = 'EXT:cf_phpinclude/Configuration/FlexForms/' . $pluginName . 'Plugin.xml';
     if (file_exists(\TYPO3\CMS\Core\Utility\GeneralUtility::getFileAbsFileName($flexFormPath))) {
-        $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist'][$pluginSignature] = 'pi_flexform';
+        // Eigenen Content-Typ registrieren statt subtypes zu verwenden
+        $GLOBALS['TCA']['tt_content']['types'][$pluginSignature] = [
+            'showitem' => '
+                --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
+                --palette--;;general,
+                pi_flexform,
+                --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:access,
+                --palette--;;hidden,
+                --palette--;;access,
+            ',
+        ];
+
+        // FlexForm dem eigenen Content-Typ zuordnen
         \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue(
-            $pluginSignature,
-            'FILE:' . $flexFormPath
+            "*",
+            'FILE:' . $flexFormPath,
+            $pluginSignature
         );
     }
 }

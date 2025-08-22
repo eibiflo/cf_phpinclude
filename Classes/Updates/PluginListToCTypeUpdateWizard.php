@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace CodingFreaks\CfPhpinclude\Updates;
 
-use Linawolf\ListTypeMigration\Upgrades\AbstractListTypeToCTypeUpdate;
+use CodingFreaks\CfPhpinclude\Updates\AbstractListTypeToCTypeUpdate;
 use TYPO3\CMS\Install\Attribute\UpgradeWizard;
 
 #[UpgradeWizard('pluginListToCTypeUpdateWizard')]
