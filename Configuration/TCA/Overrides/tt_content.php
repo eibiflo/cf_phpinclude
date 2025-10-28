@@ -19,8 +19,8 @@ foreach ($pluginNames as $pluginName) {
         $_LLL_db . 'tx_cfphpinclude_domain_model_phpfrontend.plugin.' . strtolower(preg_replace('/[A-Z]/', '_$0', lcfirst($pluginName)))
     );
 
-    //Old Registration for TYPO3 versions <= 12
-    if($versionInformation->getMajorVersion() <= 12){
+    //Old Registration for TYPO3 versions <= 13
+    if($versionInformation->getMajorVersion() <= 13){
         $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_excludelist'][$pluginSignature] = 'select_key';
         $flexFormPath = 'EXT:cf_phpinclude/Configuration/FlexForms/' . $pluginName . 'Plugin.xml';
         if (file_exists(GeneralUtility::getFileAbsFileName($flexFormPath))) {
@@ -31,7 +31,7 @@ foreach ($pluginNames as $pluginName) {
             );
         }
     }else{
-        //New Registration for TYPO3 versions >= 13
+        //New Registration for TYPO3 versions > 13
         $flexFormPath = 'EXT:cf_phpinclude/Configuration/FlexForms/' . $pluginName . 'Plugin.xml';
         if (file_exists(GeneralUtility::getFileAbsFileName($flexFormPath))) {
             // Eigenen Content-Typ registrieren statt subtypes zu verwenden
